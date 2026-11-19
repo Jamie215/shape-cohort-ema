@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "EMA Study",
+    "slug": "ema-study-mobile",
+    "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "light",
+    "scheme": "ema-study",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.emastudy"
+    },
+    "android": {
+      "package": "com.example.emastudy"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-secure-store",
+      "expo-video",
+      "@react-native-community/datetimepicker"
+    ]
+  }
+}
